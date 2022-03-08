@@ -255,10 +255,9 @@ cc_library {
     name: "libstagefright",
 
     srcs: [
-        "AACWriter.cpp",
         "ACodec.cpp",
         "ACodecBufferChannel.cpp",
-        "AHierarchicalStateMachine.cpp",
+        "AACWriter.cpp",
         "AMRWriter.cpp",
         "AudioSource.cpp",
         "BufferImpl.cpp",
@@ -294,6 +293,7 @@ cc_library {
         "RemoteMediaSource.cpp",
         "SimpleDecodingSource.cpp",
         "StagefrightMediaScanner.cpp",
+        "SurfaceMediaSource.cpp",
         "SurfaceUtils.cpp",
         "ThrottledSource.cpp",
         "Utils.cpp",
